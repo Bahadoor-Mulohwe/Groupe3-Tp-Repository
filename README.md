@@ -1,2 +1,2 @@
 # Groupe3-Tp-Repository
-Envoi du code source un le serveur en ligne sur GitHub
+Envoi du code source sur le serveur en ligne sur GitHub
