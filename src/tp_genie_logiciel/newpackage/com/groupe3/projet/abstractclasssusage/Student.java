@@ -8,7 +8,6 @@ import tp_genie_logiciel.newpackage.com.groupe3.projets.connectionsample.Connect
 public class Student extends Person {
 	private String rollNumber;
 
-        
 	public Student() {
 	}
 	public Student(int id, String firstName, String lastName, String rollNumber) {
@@ -16,14 +15,12 @@ public class Student extends Person {
 		this.rollNumber = rollNumber;
 	}
 
-        
 	public String getRollNumber() {
 		return rollNumber;
 	}
 	public void setRollNumber(String rollNumber) {
 		this.rollNumber = rollNumber;
 	}
-        
 	@Override
 	public void showIdentity() {
 		System.out.println(String.format("Student with ID [%s], FistName [%s], LastName [%s], Roll Number [%s]", id,
