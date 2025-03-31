@@ -17,7 +17,6 @@ public class TestInterface {
 			e3.add();
 			System.out.println("Insertion de l'employé 3 dans la base de données");
 
-                        
 			Person e4 = new Employee();
 			((Employee) e4).setId(4);
 			((Employee) e4).setFirstName("BAGALANE");
@@ -26,7 +25,6 @@ public class TestInterface {
 			e4.add();
 			System.out.println("Insertion de l'employé 4 dans la base de données");
 
-                        
 			//Insertion des etudiants
 			Person et9 = new Student(
                                 9, 
@@ -37,7 +35,6 @@ public class TestInterface {
 			et9.add();
 			System.out.println("Insertion de l'étudiant 9 dans la base de données");
 
-                        
 			Person et10 = new Student(
                                 10, 
                                 "BARAKA", 
@@ -46,7 +43,6 @@ public class TestInterface {
                         );
 			et10.add();
                         System.out.println("Insertion de l'étudiant 10 dans la base de données");
-                        
                         
                         Person et11 = new Student(
                                 11, "BARAKA",
@@ -63,7 +59,6 @@ public class TestInterface {
                         ); 
                         et12.add();
                         System.out.println("Insertion de l'étudiant 12 dans la base de données");
-                        
                         
                         Person et13 = new Student(
                                 13,
