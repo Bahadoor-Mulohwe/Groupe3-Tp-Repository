@@ -6,6 +6,7 @@ import tp_genie_logiciel.newpackage.com.groupe3.projets.connectionsample.Connect
 
 public class TestAbstract {
 
+    
     public static void main(String[] args) {
         try {
             //Insertion des employés
@@ -42,6 +43,7 @@ public class TestAbstract {
                     "BAHANE",
                     "23LIAGELJ1070754"
             );
+            
             int result3 = et1.add(et1);
             if (result3 > 0) {
                 System.out.println("L'etudiant 1 inserer avec succes!");
@@ -67,6 +69,7 @@ public class TestAbstract {
                     "MANEGABE", 
                     "22LSILJ619987"
             );
+            
             int result5 = et3.add(et3);
             if (result5 > 0) {
                 System.out.println("L'etudiant 3 inserer avec succes!");

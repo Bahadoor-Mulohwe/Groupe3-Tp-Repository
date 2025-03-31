@@ -8,6 +8,7 @@ public abstract class Person {
 	protected String firstName;
 	protected String lastName;
 	
+        
 	public Person() {
 	}
 
@@ -16,11 +17,13 @@ public abstract class Person {
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
+        
 
 	public int getId() {
 		return id;
 	}
 
+        
 	public void setId(int id) {
 		this.id = id;
 	}
@@ -32,6 +35,7 @@ public abstract class Person {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
+        
 
 	public String getLastName() {
 		return lastName;
@@ -40,6 +44,7 @@ public abstract class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+        
 	public abstract void showIdentity();
 	
 	/**
@@ -49,6 +54,7 @@ public abstract class Person {
 	 */
 	public abstract void showDynamicIdentity(int id) throws SQLException;
 
+        
 	/**
 	 * Insert new Person into the database by passing a Person reference (Any type of Person)
 	 * @param p
